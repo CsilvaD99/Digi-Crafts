@@ -1,0 +1,5 @@
+git is the command and status is the argument. it updates you on the current save status of the work being done on you vs code app that has not yet been pushed or commit
+
+rm is remove usually whole folders -rf only remove a single file 
+
+-e is the command the aregument is "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
