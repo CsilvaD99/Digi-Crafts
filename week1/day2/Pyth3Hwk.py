@@ -10,8 +10,19 @@ elif num==2:
     result="tails"
 
 if choice==result:
-    print("Winner Winner Chicken Dinner")
+    print("Winner Winner Chicken Dinner!")
 else:
-    print("Eliminated, better luck next time")
+    print("Ha! Get Rekt! Better luck next time.")
+
+
+
+
+
+
+
+
+
+
+
 
 
