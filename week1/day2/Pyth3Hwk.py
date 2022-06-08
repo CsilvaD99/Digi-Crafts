@@ -1,3 +1,4 @@
+#Heads or Tails, forgot to name it something easy for you to find
 import random
 choice=input("If you're afraid of losing, then you daren't win. Heads or Tails.")
 
