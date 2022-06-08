@@ -55,15 +55,39 @@
 
 
 
-run = True 
-while run:
-    userInput = int(input('enter number'))
-    if userInput == 7
-        print('winner')
-        run = False
-    else:
-        print('try again!')
-        continue
+#star = '*'
+#N = int(input("N"))
+#for x in range(N):
+ #   print(star*N) 
+
+#the_answer = 23 + 32
+#print("The answer is", the_answer)
+
+#first_number = 23
+#second_number = 23
+#the_answer = first_number + second_number
+#print("The answer is", the_answer)
+
+#NamOfUser = input("what is you name? ")
+#print("Hello %s, it is very nice to meet you!" % NamOfUser)
+
+
+
+
+#NameOfFriend = input("What is your friend's name? ")
+#NamOfUser = input("what is you name? ")
+#print("Hello %s, it is very nice to meet you and your friend %s!" % (NamOfUser, NameOfFriend))
+
+#greeting = "Hello %s, it is very nice to meet you and your friend %s"
+#YourName = input("What is your name?")
+#FriendName = input("What is your friend's name? ")
+#print(greeting % (YourName, FriendName))
+
+
+
+
+
+
 
 
 
