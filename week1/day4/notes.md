@@ -15,3 +15,16 @@ variabe = {
 "boolean": False
 print(Variable["key][3]) would give 4
 #dictianry gives you tha value by refecing the key
+
+how cna you compare two list to each other only in one loop
+
+list1 = [1,2,3,4]
+list2 = [1,2,3,4]
+
+def tandem(list1,list2,list3):
+list1 = [1,2,3,4]
+list2 = [2,3,7,8]
+if fastest:
+list2.reverse()
+for i in range(len(list1))
+val2 = list2[i]
