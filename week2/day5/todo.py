@@ -45,7 +45,7 @@ def removal():
 choice = ""
 while choice != "y":
         addatask()
-        choice = input("Are you done witht the list? y/n  ")
+        choice = input("Are you done with the list? y/n  ")
 else:
         removal()
 
