@@ -29,6 +29,35 @@ amanda.speak()
 //"hello"
 
 ```
-clas user:
+#name
+#height
+#siblings
+#weight
+#greeting
+def__init__(self):
+    self.name = "Amanda"
+    self.height = "7.3ft"
+    self.weight = "180"
+    self.siblings = "Joe"
+    self.greeting = "hey guys"
+
+carlos = user()
+print(carlos.name)
+#should print out amanda
+
+class user:
     pass
 ```
+
+
+
+carlos = user()
+print(carlos)
+
+#THE CONSTRUCTIOR OF THE class. 
+#what we wan to do now is define a class with a constructor and then add specific thing to it that help us with our program
+#the constructior is the bluepring of this class only.
+
+#the constructionr is eh vlueprint of this class only.
+#-"the skeleton of the class" and is specific for that house
+
