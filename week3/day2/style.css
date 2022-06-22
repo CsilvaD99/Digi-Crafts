@@ -1,0 +1,19 @@
+/* .container {
+  display: flex;
+  color: blue;
+  height: 500px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  border-color: red;
+  background-color: lightgrey;
+} */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 20px;
+  color: blue;
+}
