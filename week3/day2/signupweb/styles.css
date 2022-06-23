@@ -1,0 +1,36 @@
+.Background {
+  background-image: url(https://metroscap.com/pictures/houston-black-white-downtown-houston-tx-skyline--square-3271-1360-Amex.jpg);
+  align-items: 100%;
+  justify-content: 100%;
+  border: 2px;
+  border-color: aquamarine;
+  width: auto;
+  height: auto;
+}
+.signupsquare {
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  border: 3px;
+  border-color: white;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+.styles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin: 20px;
+  border-color: beige;
+  background-color: rgba(35, 210, 250, 0.95);
+  border-radius: 20px;
+  color: black;
+}
