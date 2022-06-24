@@ -1,0 +1,37 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "grid1 grid1 grid1"
+    "grid2 grid2 grid3"
+    "grid2 grid2 grid3"
+    "grid4 grid4 grid4";
+}
+.grid1 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  grid-area: grid1;
+}
+
+.grid2 {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  grid-area: grid2;
+}
+
+.grid3 {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  grid-area: grid3;
+}
+
+.grid4 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  grid-area: grid4;
+}

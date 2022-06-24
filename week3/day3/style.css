@@ -4,6 +4,13 @@ h1 {
 .fruit-basket {
   display: grid;
   place-items: center;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: repeat(3, 25px 50px 25px);
+  /* grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: repeat(3, 25px 50px 25px); */
+  grid-template-areas: ;
+}
+
+@media screen (min-width: 480px) {
+  body {
+    background-color: blue;
+  }
 }
