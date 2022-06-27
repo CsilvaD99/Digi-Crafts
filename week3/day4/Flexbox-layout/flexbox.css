@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 51px;
+  row-gap: 10px;
+  outline: 5px solid blue;
+}
+.container2 {
+  display: flex;
+  background-color: white;
+  gap: 10px;
+}
+.colum1 {
+  display: flex;
+  width: 300px;
+  background-color: aqua;
+  gap: 10px;
+  height: 80%;
+}
+.colum2 {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  background-color: green;
+}
+.container3 {
+  display: flex;
+  background-color: purple;
+  color: white;
+  align-items: center;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 51px;
+  row-gap: 10px;
+  outline: 5px solid blue;
+}
