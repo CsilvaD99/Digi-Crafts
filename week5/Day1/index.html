@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="Html">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+      rel="stylesheet"
+    />
     <link defer rel="stylesheet" href="style.css" />
     <script defer src="app.js"></script>
   </head>
   <body class="Body">
     <div class="Container" id="Screen">
       <div class="Input">
-        <input class="Textbox" type="text" id="TextBox" placeholder="Zipcode" />
+        <input class="Textbox" type="text" id="TextBox" placeholder="Search" />
         <button class="Buttons" id="SearchButton"></button>
       </div>
+      <div class="WeatherImage" id="Weather"></div>
     </div>
   </body>
 </html>

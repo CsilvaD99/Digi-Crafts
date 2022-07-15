@@ -3,8 +3,8 @@ const PlayerHand = document.getElementById("player-hand");
 const HitButton = document.getElementById("hit-button");
 const DealButton = document.getElementById("deal-button");
 const StandButton = document.getElementById("stand-button");
-const PlayButton = document.getElementById("play-button");
 const PlayerPoint = document.getElementById("player-points");
+const Dealerpoint = document.getElementById("dealer-points");
 
 window.addEventListener("DOMContentLoaded", function () {
   // Execute after page load
@@ -246,11 +246,6 @@ const NewCardPlayer = () => {
   const CardKey = "Card" + Card;
   const CardImagePath = Deck.CardKey;
   const CardImageLink = `CardImage`;
-  console.log(CardImageLink);
-  console.log(CardImagePath);
-  console.log(CardKey);
-  console.log(typeof CardKey);
-  console.log(Card);
   PlayingDeck.splice(Randicard, 1);
   parseInt(Card);
   const NewCardImagePlayerhand = document.createElement("img");
@@ -259,14 +254,14 @@ const NewCardPlayer = () => {
   NewCardImagePlayerhand.src = Deck[CardKey][CardImageLink];
   PlayerHand.append(NewCardImagePlayerhand);
   console.log(PlayingDeck);
+  const handpoints = PlayerPoint.innerHTML;
+  console.log(handpoints);
   const PointsKey = `Points`;
   const PullPlayerCardPoints = Deck[CardKey][PointsKey];
-  // parseInt(PullPlayerCardPoints);
-  // const CreatePlayerPoints = document.createElement("p");
-  // CreatePlayerPoints.className = "Playerpoints";
-  // const PlayerPointToInt = parseInt(PlayerPoint.innerText);
-  // const AddingPlayerPoints = PlayerPoint + CreatePlayerPoints;
-  // PlayerPoint.append(AddingPlayerPoints);
+  const AddingPoints = handpoints + PullPlayerCardPoints;
+  PlayerPoint.append(AddingPoints);
+  console.log(AddingPoints);
+  return AddingPoints;
 };
 const NewCardDealer = () => {
   const Randicard = PlayingDeck[Math.floor(Math.random() * PlayingDeck.length)];
@@ -288,10 +283,14 @@ const NewCardDealer = () => {
   NewCardImageDealerhand.src = Deck[CardKey][CardImageLink];
   DealerHand.append(NewCardImageDealerhand);
   console.log(PlayingDeck);
-  //   const PullDealerCardPoints = Deck[CardKey][Points];
-  //   parseInt(PullDealerCardPoints);
-  //   const CreateDealerPoints = document.createElement("p");
-  //   CreaterDealerPoints.className = "DealerPoints";
+  const Dhandpoints = PlayerPoint.innerHTML;
+  console.log(Dhandpoints);
+  const PointsKey = `Points`;
+  const PullDealerCardPoints = Deck[CardKey][PointsKey];
+  const AddingDPoints = Dhandpoints + PullDealerCardPoints;
+  PlayerPoint.append(AddingDPoints);
+  console.log(AddingDPoints);
+  return AddingDPoints;
 };
 
 const Newgame = () => {
@@ -320,9 +319,19 @@ const DealMe = () => {
   console.log(PlayingDeck);
 };
 const StandMe = () => {
-  console.log("StandMe");
+  NewCardDealer();
+  if (PlayerPoint == 21) {
+    window.alert("Blackjack");
+  } else if (PlayerPoint < 21 && PlayerPoint > Dealerpoint) {
+    window.alert("You Win");
+  } else if (DealerPoint > 21) {
+    window.alert("You Win");
+  } else if (PlayerPoint > 21 && PlayerPoint > Dealerpoint) {
+    window.alert("You lose");
+  } else if (PlayerPoint > 21) {
+    window.addalert("Bust");
+  }
 };
-PlayButton.onclick = GameStart;
 HitButton.onclick = NewCardPlayer;
-StandButton.onclick = NewCardPlayer;
+StandButton.onclick = StandMe;
 DealButton.onclick = Newgame;

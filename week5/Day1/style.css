@@ -1,33 +1,35 @@
-.Body {
-  background-color: #49afcf;
+.Html {
+  background-image: linear-gradient(#00d4ee, #f28dd1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
 }
+
 .Container {
   display: flex;
-  color: red;
   flex-direction: column;
   flex-grow: 2;
   justify-content: flex-end;
   height: 100%;
-  /* background-image: url("../day1/ebb34c4cb3612d0f607007580a7452bd.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: bottom; */
 }
 .Kami {
-  display: flex;
+  background-image: url("Kami.png");
   width: 100%;
-  height: 80px;
+  background-position: bottom;
 }
 .Buttons {
-  display: flex;
-  justify-content: flex-end;
+  position: center;
+  border: 1px solid white;
+  background-color: transparent;
   flex-direction: row;
-  border-radius: 10px;
+  border-radius: 50%;
   color: blue;
-  height: 40px;
-  text-align: center;
-
-  margin-bottom: 2px;
+  height: 32px;
+  width: 32px;
+  background-image: url("radar.png");
+  background-position: center;
+  justify-content: center;
 }
 .Input {
   display: flex;
@@ -37,12 +39,23 @@
   justify-content: flex-end;
   width: auto;
 }
+.body {
+  background-image: url("Kami.png");
+}
 .Textbox {
-  display: flex;
   height: 40px;
   border-radius: 10px;
-  height: 40px;
+  height: 30px;
   background: transparent;
   border: transparent;
   padding: transparent;
+  text-align: Center;
+}
+
+.WeatherId {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: center;
+  width: 250px;
 }
