@@ -1,0 +1,19 @@
+{
+  "name": "practice-inclass",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.35.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-es6-template-engine": "^2.2.3"
+  },
+  "description": ""
+}
