@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 router.get("/get_pets", async (req, res) => {
-  res.send("get pets");
+  res.render("index.html");
 });
 router.post("/create_pets", async (req, res) => {
   res.send("pets created");
