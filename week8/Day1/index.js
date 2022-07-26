@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const bcrypt = require("bcrypt");
 const { client } = require("./models");
-const PORT = 3008;
+const PORT = 3009;
 const router = express.Router();
 
 app.use(express.json());
