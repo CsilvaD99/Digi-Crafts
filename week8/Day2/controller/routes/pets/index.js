@@ -1,8 +1,12 @@
 const express = require("express");
 const router = express.Router();
+const { Pets } = require("../../../sequelize/models");
 
 router.get("/get_pets", async (req, res) => {
-  res.render("index.html");
+  const PetsWant = await Pets.findAll();
+  console.log(PetsWant);
+
+  res.render("pets", { locals: { title: PetsWant } });
 });
 router.post("/create_pets", async (req, res) => {
   res.send("pets created");

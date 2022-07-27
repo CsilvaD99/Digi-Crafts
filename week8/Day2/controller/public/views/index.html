@@ -10,6 +10,9 @@
   <body>
     <div class="petContainer">
       <h1>pets</h1>
+      ${title.map ( Pet => `
+      <h2>${Pet.name}</h2>
+      `).join(''))}
     </div>
   </body>
 </html>
