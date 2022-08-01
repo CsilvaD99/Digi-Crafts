@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "tdjqwttx",
+    "password": "VluLGRJ9c1FXARF7ZHY8QE3tvyRYkUNn",
+    "database": "tdjqwttx",
+    "host": "heffalump.db.elephantsql.com",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "tdjqwttx",
+    "password": "VluLGRJ9c1FXARF7ZHY8QE3tvyRYkUNn",
+    "database": "tdjqwttx",
+    "host": "heffalump.db.elephantsql.com",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "tdjqwttx",
+    "password": "VluLGRJ9c1FXARF7ZHY8QE3tvyRYkUNn",
+    "database": "tdjqwttx",
+    "host": "heffalump.db.elephantsql.com",
+    "dialect": "postgres"
+  }
+}
