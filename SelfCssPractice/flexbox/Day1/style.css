@@ -1,0 +1,40 @@
+.box {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.box1 {
+  background: red;
+}
+.box2 {
+  background: blue;
+}
+.box3 {
+  background: purple;
+}
+.box4 {
+  background: green;
+}
+.box5 {
+  background: black;
+}
+.box6 {
+  background: yellow;
+}
+.box7 {
+  background: gray;
+}
+.box8 {
+  background: brown;
+}
+.box9 {
+  background: orange;
+}
+.container {
+  display: flex;
+}
+.box {
+}
