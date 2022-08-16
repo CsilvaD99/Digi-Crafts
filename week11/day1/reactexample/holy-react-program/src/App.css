@@ -1,0 +1,52 @@
+.header {
+  display: grid;
+  grid-template: auto 1fr auto/auto;
+
+  background: rgb(3, 213, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 213, 217, 1) 0%,
+    rgba(167, 26, 44, 0.8225665266106442) 1%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.footer {
+  display: grid;
+  grid-template: ;
+  height: 50px;
+  width: 100%;
+  background: rgb(3, 5, 217);
+}
+.menu {
+  height: ;
+  width: 20%;
+  background: rgb(3, 213, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 213, 217, 1) 0%,
+    rgba(167, 26, 44, 0.8225665266106442) 1%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.content {
+  height: 20px;
+  width: 60%;
+  background: rgb(3, 213, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 213, 217, 1) 0%,
+    rgba(167, 26, 44, 0.8225665266106442) 1%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.ad {
+  height: 20px;
+  width: 20%;
+  background: rgb(3, 213, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 213, 217, 1) 0%,
+    rgba(167, 26, 44, 0.8225665266106442) 1%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
